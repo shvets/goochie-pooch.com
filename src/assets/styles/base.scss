@@ -1,0 +1,21 @@
+img, svg {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+hr {
+  background-color: var(--secondary-color);
+}
+
+::selection { background: var(--select-color); }
+
+//a {
+//  color: var(--primary-color);
+//}
+
+p {
+  font-family: "Droid Serif", Georgia, Serif;
+  font-size: 1.1rem;
+  color: var(--font-color)
+}
+

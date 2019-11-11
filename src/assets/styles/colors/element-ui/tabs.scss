@@ -1,0 +1,56 @@
+.el-tabs {
+  .el-tabs__active-bar {
+    background-color: var(--link-color);
+  }
+
+  .el-tabs__new-tab {
+    color: #d3dce6;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+
+  .el-tabs__nav-wrap {
+    &::after {
+      background-color: var(--primary-background-color);
+    }
+  }
+
+  .el-tabs__nav-next, .el-tabs__nav-prev {
+    color: var(--secondary-color);
+  }
+
+  .el-tabs__item {
+    color: var(--tabs-color);
+    opacity: 0.7;
+
+    &:focus.is-active.is-focus:not(:active) {
+      box-shadow: 0 0 2px 2px var(--primary-color) inset;
+    }
+
+    & .el-icon-close {
+      &:hover {
+        //background-color: var(--color-text-placeholder);
+        color: var(--primary-background-color);
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &.is-active {
+      opacity: 1;
+    }
+
+    &:disabled {
+      color: var(--disabled-color-base);
+    }
+  }
+}
+
+.el-tabs__content {
+  color: var(--primary-color);
+}
+

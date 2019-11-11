@@ -1,0 +1,25 @@
+$colors: (
+  // Primary Colors
+  --primary-color: #000000,
+  --primary-background-color: #FFFFFF,
+  --accented-primary-background-color: #eae0c9,
+  --secondary-color: #909399,
+  --secondary-background-color: #756e6c,
+  --tetriary-color: #51A39D,
+  --tetriary-background-color: #B7695C,
+  --link-color: #19B0DD,
+  --error-color: #D0480D,
+  --font-color: #474747
+);
+
+@at-root :root [data-theme=light] {
+  @import './css-vars';
+  @include css-vars($colors);
+
+  --nav-bar-background-color: var(--accented-primary-background-color);
+
+  --menu-color: var(--secondary-color);
+
+  --coupon-color: var(--primary-color);
+  --coupon-background-color: #FEEFDB;
+}

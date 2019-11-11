@@ -1,0 +1,20 @@
+a {
+  transition: color .3s, opacity .3s, background .3s, text-decoration .5s;
+  position: relative;
+  text-decoration: underline;
+  color: var(--link-color);
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
+  
+  svg + & {
+    margin-left: .5rem;
+  }
+
+  code & {
+    color: currentColor;
+    font-weight: bold;
+  }
+}

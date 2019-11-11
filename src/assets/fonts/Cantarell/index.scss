@@ -1,0 +1,8 @@
+$font-path: '../fonts/Cantarell';
+
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cantarell Regular'), local('Cantarell-Regular'), url(#{$font-path}/cantarell.woff) format('woff');
+}

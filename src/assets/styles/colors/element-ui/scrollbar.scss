@@ -1,0 +1,34 @@
+.el-scrollbar {
+  .el-scrollbar__thumb {
+    background-color: var(--scrollbar-background-color);
+
+    &:hover {
+      background-color: var(--scrollbar-hover-background-color);
+    }
+  }
+
+  .el-scrollbar__wrap {
+    background-color: var(--select-dropdown-item-background-color);
+
+    ul li {
+      color: var(--select-dropdown-item-color);
+
+      &:hover {
+        background-color: var(--select-dropdown-item-hover-background-color);
+      }
+    }
+  }
+
+  .el-autocomplete-suggestion__list {
+    background-color: var(--select-dropdown-item-background-color);
+
+    .el-select-dropdown__item {
+      color: var(--select-dropdown-item-color);
+
+      &:hover {
+        background-color: var(--select-dropdown-item-hover-background-color);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,43 @@
+.menu {
+  margin-left: 1rem;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.0;
+  }
+
+  li {
+    display: block;
+  }
+
+  a {
+    display: block;
+    margin-right: 3px;
+    text-decoration: none;
+    font-family: "Graublau Web", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: var(--menu-color);
+
+    //&:hover {
+    //  text-decoration-line: underline;
+    //  text-decoration-color: var(--link-color);
+    //  text-decoration-style: solid;
+    //}
+  }
+}
+
+.coupon {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  border: 3px dashed var(--coupon-color);
+  font: 16px Helvetica;
+  color: var(--coupon-color);
+  background-color: var(--coupon-background-color);
+}
+
+.theme-control {
+  width: 3rem;
+}
