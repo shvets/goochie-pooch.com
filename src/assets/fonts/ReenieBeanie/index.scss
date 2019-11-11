@@ -1,0 +1,8 @@
+$font-path: '../fonts/ReenieBeanie';
+
+@font-face {
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Reenie Beanie'), local('ReenieBeanie'), url(#{$font-path}/reenie-beanie.woff) format('woff');
+}

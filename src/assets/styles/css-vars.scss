@@ -1,0 +1,5 @@
+@mixin css-vars($varMap: null) {
+  @each $varName, $varValue in $varMap {
+    #{$varName}: #{$varValue}
+  }
+}

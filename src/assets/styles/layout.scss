@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  //font-family: 'Jost', Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", Georgia, Serif;
+  font-size: 1.1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: var(--primary-color);
+  background-color: var(--primary-background-color);
+}
+
+header {
+  height: 10vh;
+  color: var(--font-color);
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: var(--nav-bar-background-color);
+    //filter: brightness(70%);
+    height: inherit;
+  }
+
+  .title {
+    padding-left: 5rem;
+    font-family: Reenie Beanie, arial, serif;
+    color: var(--tetriary-color);
+    font-size: 80px;
+    font-weight: bold;
+  }
+}
+
+main {
+  width: inherit;
+  height: 85vh;
+  padding: 0.2rem;
+  color: var(--tetriary-color);
+}
+
+//.container {
+//  width: inherit;
+//  height: inherit;
+//}
+
+footer {
+  height: 5vh;
+  //border: 1px yellow solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-background-color);
+  font: 14px Helvetica;
+  color: var(--tetriary-color);
+  font-weight: bold;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+//#app {
+//  width: inherit;
+//  height: inherit;
+//}
+

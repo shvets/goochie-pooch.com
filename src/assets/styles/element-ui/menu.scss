@@ -1,0 +1,30 @@
+.el-menu {
+  color: var(--menu-color);
+  background-color: var(--menu-background-color);
+
+  .el-submenu {
+    color: var(--menu-color);
+    background-color: var(--menu-background-color);
+  }
+
+  .el-menu-item {
+    color: var(--menu-color);
+    background-color: var(--menu-background-color);
+
+    &:hover, &:focus {
+      .menu-link {
+        color: var(--menu-hover-color);
+        border-bottom: 2px solid var(--menu-hover-color);
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  .menu-link {
+    color: var(--menu-color);
+  }
+}
+
+.el-submenu__title i {
+  color: var(--menu-hover-color);
+}

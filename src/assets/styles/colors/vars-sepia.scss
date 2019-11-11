@@ -1,0 +1,96 @@
+$colors: (
+  // Primary Colors
+  --primary-color: #757065,
+  --primary-background-color: #f1e7d0,
+  --accented-primary-background-color: #ccbca9,
+  --secondary-color: #909399,
+  --secondary-background-color: #756e6c,
+  --tetriary-color: #51A39D,
+  --tetriary-background-color: #B7695C,
+  --link-color: #19B0DD,
+  --error-color: #D0480D
+);
+
+@at-root :root [data-theme=sepia] {
+  @import '../css-vars.scss';
+  @include css-vars($colors);
+
+  --nav-bar-background-color: var(--accented-primary-background-color);
+
+  --menu-color: var(--secondary-color);
+
+  --coupon-color: var(--primary-color);
+  --coupon-background-color: #FEEFDB;
+
+  //// breadcrumb
+  //--breadcrumb-link-color: #1C8FB1;
+  //--breadcrumb-color: var(--secondary-color);
+  //
+  //// button
+  //--button-color: var(--primary-color);
+  //--button-background-color: var(--action-color);
+  //--button-background-hover-color: var(--action-hover-color);
+  //--button-secondary-background-color: var(--secondary-color);
+  //--button-secondary-background-hover-color: var(--secondary-hover-color);
+  //
+  //// card
+  //--card-background-color: var(--accented-base-background-color);
+  //
+  //// carousel
+  //--carousel-background-color: var(--accented-base-background-color);
+  //
+  //// dialog
+  //--dialog-background-color: var(--primary-background-color);
+  //
+  //// input
+  //--input-color: var(--primary-color);
+  //--input-background-color: var(--secondary-background-color);
+  //
+  //// label
+  //--label-color: var(--primary-color);
+
+  // map
+  --map-control-color: var(--primary-background-color);
+  --map-control-background-color: var(--accented-base-background-color);
+  --map-control-color-disabled: #566066;
+  --map-control-background-color-disabled: lightgray;
+  --map-border-color: #e2ecec;
+
+  //// pagination
+  //--pagination-color: var(--primary-color);
+  //--pagination-background-color: #efede4;
+  //--pagination-button-color: #ccbca9;
+  //--pagination-button-background-color: var(--primary-color);
+  //--pagination-button-disabled-background-color: #7e818e;
+  //--pagination-hover-color: var(--primary-color);
+  //--pagination-hover-background-color: var(--primary-color);
+  //
+  //// scrollbar
+  //--scrollbar-background-color: var(--accented-base-background-color);
+  //--scrollbar-hover-background-color: gray;
+  //
+  //// select
+  //--select-option-color: var(--primary-color);
+  //--select-option-disabled-color: var(--secondary-color);
+  //
+  //// select-dropdown
+  //--select-dropdown-item-color: var(--primary-color);
+  //--select-dropdown-item-background-color: var(--primary-background-color);
+  //--select-dropdown-item-hover-background-color: var(--primary-color);
+  //--select-dropdown-item-disabled-color: #686b99;
+  //
+  //// table
+  //--table-color: var(--primary-color);
+  //--table-header-color: var(--primary-color);
+  //--table-background-color: #faf4e5;
+  //--table-striped-background-color: #FAFAFA;
+  //--table-header-background-color: #efd98f;
+  //--table-selected-background-color: #76c9fa;
+  //--table-hover-background-color: #cdeefa;
+  //--table-hover-border-color: #19B0DD;
+  //
+  //// tag
+  //--tag-border-color: #19B0DD;
+
+  @import '../element-ui/index';
+}

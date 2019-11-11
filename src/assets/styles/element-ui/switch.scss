@@ -1,0 +1,13 @@
+.el-switch {
+  .el-switch__core {
+    background-color: var(--link-color);
+  }
+
+  .el-switch__label {
+    color: var(--primary-color);
+
+    &.is-active {
+      color: var(--link-color);
+    }
+  }
+}

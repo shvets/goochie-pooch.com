@@ -1,0 +1,9 @@
+.el-tag {
+  color: var(--primary-color);
+  background: var(--primary-background-color);
+  border-color: var(--tag-border-color);
+
+  .el-tag__close {
+    color: var(--primary-color);
+  }
+}

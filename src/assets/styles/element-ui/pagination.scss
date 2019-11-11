@@ -1,0 +1,40 @@
+.el-pagination {
+  .btn-prev,
+  .btn-next {
+    background-color: var(--pagination-button-background-color);
+    color: var(--pagination-button-color);
+
+    &:disabled {
+      background-color: var(--pagination-button-disabled-background-color);
+    }
+  }
+
+  .el-pager li {
+    background-color: var(--pagination-button-background-color);
+    color: var(--pagination-button-color);
+
+    &:hover {
+      background-color: var(--pagination-hover-background-color);
+    }
+
+    &.active {
+      background-color: var(--pagination-hover-background-color);
+    }
+  }
+
+  //.el-pager li.disabled {
+  //  color: var(--color-text-placeholder);
+  //}
+}
+
+.el-pagination__jump {
+  color: var(--pagination-color);
+}
+
+.el-input.el-pagination__editor {
+  input {
+    color: var(--pagination-color);
+  }
+}
+
+

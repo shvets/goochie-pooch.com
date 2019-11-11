@@ -1,0 +1,9 @@
+### Send POST request with json body
+GET https://google.com
+Content-Type: application/json
+
+###
+
+
+
+
