@@ -1,0 +1,13 @@
+.el-dialog {
+  color: var(--primary-color);
+  background: var(--dialog-background-color);
+
+  .el-dialog__header .el-dialog__title {
+    color: var(--primary-color);
+  }
+
+  .el-icon-close:before {
+    color: var(--primary-color);
+    content: '\e79d'; // replace with .el-icon-error
+  }
+}

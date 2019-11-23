@@ -1,0 +1,26 @@
+.el-select-dropdown.el-popper {
+  .el-select-group__title {
+    color: var(--secondary-color);
+  }
+
+  .el-select-group {
+    background-color: var(--select-dropdown-item-background-color);
+
+    .el-select-dropdown__item {
+      margin-left: 1rem;
+    }
+  }
+
+  .el-select-dropdown__item {
+    color: var(--select-dropdown-item-color);
+    background-color: var(--select-dropdown-item-background-color);
+
+    &:hover {
+      background-color: var(--select-dropdown-item-hover-background-color);
+    }
+
+    &.is-disabled {
+      color: var(--select-dropdown-item-disabled-color);
+    }
+  }
+}

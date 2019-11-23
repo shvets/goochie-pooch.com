@@ -14,6 +14,7 @@ $colors: (
 
 @at-root :root [data-theme=dark] {
   @import 'css-vars';
+  @import '../css-vars.scss';
   @include css-vars($colors);
 
   --nav-bar-background-color: var(--accented-primary-background-color);

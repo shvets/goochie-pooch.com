@@ -13,6 +13,7 @@ $colors: (
 
 @at-root :root [data-theme=sepia] {
   @import 'css-vars';
+  @import '../css-vars.scss';
   @include css-vars($colors);
 
   --nav-bar-background-color: var(--accented-primary-background-color);
@@ -93,4 +94,5 @@ $colors: (
   //--tag-border-color: #19B0DD;
 
   @import 'element-ui/index';
+  @import '../element-ui/index';
 }

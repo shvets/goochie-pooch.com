@@ -1,0 +1,14 @@
+.el-input {
+  background-color: var(--input-background-color);
+
+  .el-input__inner {
+    color: var(--input-color);
+    background-color: var(--input-background-color);
+  }
+}
+
+.el-input.is-disabled {
+  .el-input__inner {
+    background-color: var(--input-background-color);
+  }
+}

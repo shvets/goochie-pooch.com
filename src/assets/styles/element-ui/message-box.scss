@@ -1,0 +1,14 @@
+.el-message-box {
+  color: var(--primary-color);
+  background-color: var(--primary-background-color);
+
+  .el-message-box__title, .el-message-box__content {
+    color: var(--primary-color);
+    background-color: var(--primary-background-color);
+  }
+
+  .el-icon-close:before {
+    color: var(--primary-color);
+    content: '\e79d'; // replace with .el-icon-error
+  }
+}

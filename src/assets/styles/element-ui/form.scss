@@ -1,0 +1,19 @@
+.el-form {
+  label {
+    color: var(--label-color);
+  }
+
+  .el-form-item__error {
+    color: var(--error-color);
+  }
+
+  .el-form-item.is-error {
+    .el-input__inner {
+      border-color: var(--error-color);
+    }
+  }
+
+  .el-form-item.is-required:not(.is-no-asterisk) > .el-form-item__label:before {
+    color: var(--error-color)
+  }
+}
